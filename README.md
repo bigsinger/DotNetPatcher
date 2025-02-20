@@ -12,8 +12,8 @@
 
 ```xml
 <runtime>
-    <appDomainManagerType value="hijack.Adm" />
-    <appDomainManagerAssembly value="hijack" />
+    <appDomainManagerType value="Patcher.Adm" />
+    <appDomainManagerAssembly value="Patcher" />
 </runtime>
 ```
 
@@ -27,8 +27,8 @@
     </startup>
     
     <runtime>
-        <appDomainManagerType value="hijack.Adm" />
-        <appDomainManagerAssembly value="hijack" />
+        <appDomainManagerType value="Patcher.Adm" />
+        <appDomainManagerAssembly value="Patcher" />
      </runtime>
 </configuration>
 ```
